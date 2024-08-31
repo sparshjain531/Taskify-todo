@@ -1,8 +1,3 @@
-# React + Vite
+# Taskify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A full-featured task management application built using the MERN stack. Taskify allows users to sign up, log in, and securely manage their to-do lists. Users can create, edit, and delete tasks, with all data being securely stored in a MongoDB database. The application features JWT-based authentication and a responsive user interface built with React. Node.js and Express.js handle the server-side logic, ensuring a seamless and secure experience for users.
