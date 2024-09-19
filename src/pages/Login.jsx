@@ -54,8 +54,8 @@ const Login = () => {
         <input value={email} onChange={(e) => { setEmail(e.target.value) }} required type="email" placeholder="Email" />
         <input value={password} onChange={(e) => { setPassword(e.target.value) }} required type="password" placeholder="Password" />  
           <button disabled={loading} type="submit">Login</button>
-          <h4>Or</h4>
-          <Link to="/register">Sign Up</Link>
+          <h4 style={{textAlign:"center"}}>Or</h4>
+          <Link style={{textAlign:"center"}} to="/register">Sign Up</Link>
         </form>
       </section>
     </div>
