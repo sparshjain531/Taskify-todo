@@ -1,5 +1,24 @@
 @media (max-width: 900px) {
-    .login {
-      padding: 0;
+  .login {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+      }
     }
   }
+}
