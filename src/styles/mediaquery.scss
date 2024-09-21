@@ -14,7 +14,108 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 110%;
+    width: 100%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 12.2rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 510px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 9.8rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 433px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 11.5rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      width: 130%; 
+    }
+  }
+  .login{
+    > section{
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 376px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130%;
 
     >div {
       h2 {
@@ -22,6 +123,194 @@
         color: $color2;
         font-weight: 400;
         padding: 0 8.5rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      width: 130%; 
+    }
+  }
+  .login{
+    > section{
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 322px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 8.5rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      width: 130%; 
+    }
+  }
+  .login{
+    > section{
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 9rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      width: 150%;
+    }
+  }
+  .login{
+    > section{
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 275px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 170%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 8.5rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      width: 170%;
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 245px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 170%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 8.5rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      width: 170%;
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 235px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 220%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 8.5rem;
+      }
+    }
+  }
+  .login{
+    > section{
+      width: 210%;
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
       }
     }
   }
