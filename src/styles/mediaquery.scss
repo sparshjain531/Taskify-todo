@@ -432,16 +432,11 @@
       }
     }
   }
-  @mixin container($maxW: 1200px, $h: 125vh, $p: 5vmax, $m: auto) {
-    margin: $m;
-    max-width: $maxW;
-    width: 130%;
-    height: $h;
-    padding: $p;
-  }
   .container{
+    margin: auto;
     width: 130%;
     height: 125vh;
+    padding: 5rem 2rem;
   }
   .login>section {
     width: 100%;
@@ -486,16 +481,11 @@
   .login>section {
     width: 100%;
 }
-@mixin container($maxW: 1200px, $h: 125vh, $p: 5vmax, $m: auto) {
-  margin: $m;
-  max-width: $maxW;
-  width: 130%;
-  height: $h;
-  padding: $p;
-}
 .container{
+  margin: auto;
   width: 130%;
   height: 125vh;
+  padding: 5rem 2rem;
 }
 }
 @media only screen and (max-width: 322px) {
