@@ -432,9 +432,12 @@
       }
     }
   }
-  .container{
+  @mixin container($maxW: 1200px, $h: 125vh, $p: 5vmax, $m: auto) {
+    margin: $m;
+    max-width: $maxW;
     width: 130%;
-    height: 125vh;
+    height: $h;
+    padding: $p;
   }
   .login>section {
     width: 100%;
