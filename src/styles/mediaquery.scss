@@ -1,365 +1,26 @@
-// @media (max-width: 900px) {
-//   .login {
-//     padding: 0;
-//   }
-// }
-// @media only screen and (max-width: 600px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 100%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 12.2rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media only screen and (max-width: 510px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 100%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 9.8rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media only screen and (max-width: 433px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 130%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 11.5rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       width: 130%; 
-//     }
-//   }
-//   .login{
-//     > section{
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media only screen and (max-width: 376px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 130%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 8.5rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       width: 130%; 
-//     }
-//   }
-//   .login{
-//     > section{
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media only screen and (max-width: 322px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 130%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 8.5rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       width: 130%; 
-//     }
-//   }
-//   .login{
-//     > section{
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media only screen and (max-width: 320px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 150%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 9rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       width: 150%;
-//     }
-//   }
-//   .login{
-//     > section{
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media only screen and (max-width: 275px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 170%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 8.5rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       width: 170%;
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media only screen and (max-width: 245px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 170%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 8.5rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       width: 170%;
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-// }
-// @media only screen and (max-width: 235px) {
-//   *{
-//     width: 100%;
-//   }
-//   .header {
-//     background-color: $color3;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     width: 220%;
-
-//     >div {
-//       h2 {
-//         text-transform: uppercase;
-//         color: $color2;
-//         font-weight: 400;
-//         padding: 0 8.5rem;
-//       }
-//     }
-//   }
-//   .login{
-//     > section{
-//       width: 210%;
-//       h4{
-//         text-align: center;
-//       }
-//       a{
-//         text-align: center;
-//       }
-//     }
-//   }
-//   .container{
-//     width: 220%;
-//     height: 210vh;
-//   }
-// }
-
-
 @media (max-width: 900px) {
   .login {
     padding: 0;
   }
-  .header {
-    background-color: #333;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 3rem;
-    width: 220%;
-    > article {
-      gap: 75px;
-    }
-}
 }
 @media only screen and (max-width: 600px) {
   *{
     width: 100%;
   }
-  .header>article {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 225px;
-}
   .header {
     background-color: $color3;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 220%;
+    width: 100%;
 
     >div {
       h2 {
         text-transform: uppercase;
         color: $color2;
         font-weight: 400;
-        padding: 0 26.2rem;
+        padding: 0 12.2rem;
       }
     }
   }
@@ -384,17 +45,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 220%;
-    > article{
-      gap: 155px;
-    }
+    width: 100%;
 
     >div {
       h2 {
         text-transform: uppercase;
         color: $color2;
         font-weight: 400;
-        padding: 0 23rem;
+        padding: 0 9.8rem;
       }
     }
   }
@@ -419,22 +77,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 225%;
-    > article{
-      gap: 125px;
-    }
+    width: 130%;
+
     >div {
       h2 {
         text-transform: uppercase;
         color: $color2;
         font-weight: 400;
-        padding: 0 20rem;
+        padding: 0 11.5rem;
       }
     }
   }
   .login{
     > section{
-      width: 100%; 
+      width: 130%; 
     }
   }
   .login{
@@ -446,10 +102,6 @@
         text-align: center;
       }
     }
-  }
-  .container{
-    width: 130%;
-    height: 120vh;
   }
 }
 @media only screen and (max-width: 376px) {
@@ -462,23 +114,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 220%;
-    > article{
-      gap: 55px;
-    }
+    width: 130%;
 
     >div {
       h2 {
         text-transform: uppercase;
         color: $color2;
         font-weight: 400;
-        padding: 0 15.5rem;
+        padding: 0 8.5rem;
       }
     }
   }
   .login{
     > section{
-      width: 100%; 
+      width: 130%; 
     }
   }
   .login{
@@ -490,10 +139,6 @@
         text-align: center;
       }
     }
-  }
-  .container{
-    width: 130%;
-    height: 120vh;
   }
 }
 @media only screen and (max-width: 322px) {
@@ -543,20 +188,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 227%;
+    width: 150%;
 
     >div {
       h2 {
         text-transform: uppercase;
         color: $color2;
         font-weight: 400;
-        padding: 0 12rem;
+        padding: 0 9rem;
       }
     }
   }
   .login{
     > section{
-      width: 100%;
+      width: 150%;
     }
   }
   .login{
@@ -568,10 +213,6 @@
         text-align: center;
       }
     }
-  }
-  .container{
-    width: 150%;
-    height: 140vh;
   }
 }
 @media only screen and (max-width: 275px) {
@@ -584,20 +225,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 230%;
+    width: 170%;
 
     >div {
       h2 {
         text-transform: uppercase;
         color: $color2;
         font-weight: 400;
-        padding: 0 12rem;
+        padding: 0 8.5rem;
       }
     }
   }
   .login{
     > section{
-      width: 100%;
+      width: 170%;
       h4{
         text-align: center;
       }
@@ -605,10 +246,6 @@
         text-align: center;
       }
     }
-  }
-  .container{
-    width: 170%;
-    height: 160vh;
   }
 }
 @media only screen and (max-width: 245px) {
@@ -667,7 +304,7 @@
   }
   .login{
     > section{
-      width: 100%;
+      width: 210%;
       h4{
         text-align: center;
       }
