@@ -323,9 +323,12 @@
 @import 'features';
 
 @media (max-width: 900px) {
+  .header{
+    width: 100%;
+  }
   .container{ 
-    @include defaultStyle(100%, 127vh);
-    @include container(1200px, 100%, 127vh);
+    @include defaultStyle(100%, 100vh);
+    @include container(100%, 100%, 100vh);
   }
   .login {
     padding: 0;
