@@ -54,7 +54,7 @@ a {
 }
 
 .loader {
-  @include defaultStyle;
+  @include defaultStyle(100%, 100vh);
   @include flexBox(column, center, center);
   @include styledText(2rem, 100, uppercase);
   overflow-x: hidden;
@@ -66,7 +66,7 @@ a {
   @include myButton;
 }
 .container {
-  @include defaultStyle;
+  @include defaultStyle(100%, 100vh);
   padding: 5rem 2rem;
   background-color: $color4;
 }

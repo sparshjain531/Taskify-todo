@@ -450,6 +450,7 @@
     }
   }
   .container{ 
+    @include defaultStyle(131%, 121vh);
     @include container(1200px, 131%, 121vh);
   }
   .login{
