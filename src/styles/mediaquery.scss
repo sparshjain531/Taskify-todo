@@ -348,7 +348,7 @@
 }
 @media (max-width: 821px) {
   .header{
-    width: 100%;
+    width: 131%;
   }
   .container{ 
     @include defaultStyle(103%, 127vh);
@@ -359,9 +359,9 @@
   }
 }
 @media only screen and (max-width: 600px) {
-  *{
-    width: 100%;
-  }
+  // *{
+  //   width: 100%;
+  // }
   .header {
     background-color: $color3;
     display: flex;
