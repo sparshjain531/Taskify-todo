@@ -412,6 +412,10 @@
       }
     }
   }
+  .container{ 
+    @include defaultStyle(131%, 122vh);
+    @include container(1200px, 131%, 122vh);
+  }
   .login{
     > section{
       width: 100%; 
