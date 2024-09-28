@@ -450,7 +450,9 @@
     }
   }
   .container{
-    @include container(131%, 121vh);
+    max-width: 131%;
+    width: 131%;
+    height: 121vh;
   }
   .login{
     > section{
