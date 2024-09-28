@@ -65,8 +65,24 @@ a {
   @include styledText;
   @include myButton;
 }
-.container {
-  @include defaultStyle(100%, 121vh);
-  padding: 5rem 2rem;
-  background-color: $color4;
+// .container {
+//   @include defaultStyle(131%, 121vh);
+//   padding: 5rem 2rem;
+//   background-color: $color4;
+// }
+
+@media (max-width: 900px) {
+  .container {
+    @include defaultStyle(100%, 121vh);
+    padding: 5rem 2rem;
+    background-color: $color4;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    @include defaultStyle(131%, 121vh);
+    padding: 5rem 2rem;
+    background-color: $color4;
+  }
 }
