@@ -450,7 +450,7 @@
     }
   }
   .container{
-    @include container(1200px, 131%, 121vh);
+    @include container(131%, 121vh);
   }
   .login{
     > section{
