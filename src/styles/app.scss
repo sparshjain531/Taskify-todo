@@ -71,6 +71,15 @@ a {
 //   background-color: $color4;
 // }
 
+
+@media (max-width: 1500px) {
+  .container {
+    @include defaultStyle(100%, 121vh);
+    padding: 5rem 2rem;
+    background-color: $color4;
+  }
+}
+
 @media (max-width: 900px) {
   .container {
     @include defaultStyle(100%, 121vh);
