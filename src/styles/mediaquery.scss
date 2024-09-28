@@ -339,6 +339,18 @@
     padding: 0;
   }
 }
+@media (max-width: 821px) {
+  .header{
+    width: 131%;
+  }
+  .container{ 
+    @include defaultStyle(103%, 127vh);
+    @include container(1200px, 103%, 127vh);
+  }
+  .login {
+    padding: 0;
+  }
+}
 @media only screen and (max-width: 600px) {
   *{
     width: 100%;
