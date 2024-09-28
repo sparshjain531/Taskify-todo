@@ -66,9 +66,7 @@ a {
   @include myButton;
 }
 .container {
-  // @include defaultStyle;
-  width: 100%;
-  height: 100vh;
+  @include defaultStyle(100% 100vh);
   padding: 5rem 2rem;
   background-color: $color4;
 }
