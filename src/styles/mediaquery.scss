@@ -323,6 +323,11 @@
 @import 'features';
 
 @media (max-width: 900px) {
+  .login {
+    padding: 0;
+  }
+}
+@media (max-width: 770px) {
   .header{
     width: 131%;
   }
