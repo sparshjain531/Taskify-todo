@@ -334,18 +334,6 @@
     padding: 0;
   }
 }
-@media (max-width: 770px) {
-  .header{
-    width: 131%;
-  }
-  .container{ 
-    @include defaultStyle(131%, 127vh);
-    @include container(1200px, 131%, 127vh);
-  }
-  .login {
-    padding: 0;
-  }
-}
 @media (max-width: 821px) {
   .header{
     width: 131%;
@@ -353,6 +341,18 @@
   .container{ 
     @include defaultStyle(103%, 127vh);
     @include container(1200px, 103%, 127vh);
+  }
+  .login {
+    padding: 0;
+  }
+}
+@media (max-width: 770px) {
+  .header{
+    width: 131%;
+  }
+  .container{ 
+    @include defaultStyle(131%, 127vh);
+    @include container(1200px, 131%, 127vh);
   }
   .login {
     padding: 0;
