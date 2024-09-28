@@ -1,5 +1,188 @@
 @import 'features';
 
+// @media (max-width: 900px) {
+//   .header{
+//     width: 100%;
+//   }
+//   .container{ 
+//     @include defaultStyle(100%, 100vh);
+//     @include container(100%, 100%, 100vh);
+//   }
+//   .login {
+//     padding: 0;
+//   }
+// }
+// @media (max-width: 821px) {
+//   .header{
+//     width: 131%;
+//   }
+//   .container{ 
+//     @include defaultStyle(103%, 127vh);
+//     @include container(1200px, 103%, 127vh);
+//   }
+//   .login {
+//     padding: 0;
+//   }
+// }
+// @media (max-width: 770px) {
+//   .header{
+//     width: 131%;
+//   }
+//   .container{ 
+//     @include defaultStyle(131%, 127vh);
+//     @include container(1200px, 131%, 127vh);
+//   }
+//   .login {
+//     padding: 0;
+//   }
+// }
+// @media only screen and (max-width: 600px) {
+//   // *{
+//   //   width: 100%;
+//   // }
+//   .header {
+//     background-color: $color3;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     width: 131%;
+
+//     >div {
+//       h2 {
+//         text-transform: uppercase;
+//         color: $color2;
+//         font-weight: 400;
+//         padding: 0 12.2rem;
+//       }
+//     }
+//   }
+//   .login{
+//     > section{
+//       h4{
+//         text-align: center;
+//       }
+//       a{
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 510px) {
+//   // *{
+//   //   width: 100%;
+//   // }
+//   .header {
+//     background-color: $color3;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     width: 131%;
+
+//     >div {
+//       h2 {
+//         text-transform: uppercase;
+//         color: $color2;
+//         font-weight: 400;
+//         padding: 0 9.8rem;
+//       }
+//     }
+//   }
+//   .login{
+//     > section{
+//       h4{
+//         text-align: center;
+//       }
+//       a{
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 433px) {
+//   *{
+//     width: 100%;
+//   }
+//   .header {
+//     background-color: $color3;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     width: 130%;
+
+//     >div {
+//       h2 {
+//         text-transform: uppercase;
+//         color: $color2;
+//         font-weight: 400;
+//         padding: 0 11.5rem;
+//       }
+//     }
+//   }
+//   .container{ 
+//     @include defaultStyle(131%, 123vh);
+//     @include container(1200px, 131%, 123vh);
+//   }
+//   .login{
+//     > section{
+//       width: 100%; 
+//     }
+//   }
+//   .login{
+//     > section{
+//       h4{
+//         text-align: center;
+//       }
+//       a{
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+// @media only screen and (max-width: 376px) {
+//   *{
+//     width: 100%;
+//   }
+//   .header {
+//     background-color: $color3;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     width: 130%;
+
+//     >div {
+//       h2 {
+//         text-transform: uppercase;
+//         color: $color2;
+//         font-weight: 400;
+//         padding: 0 8.5rem;
+//       }
+//     }
+//   }
+//   .container{ 
+//     @include defaultStyle(131%, 122vh);
+//     @include container(1200px, 131%, 122vh);
+//   }
+//   .login{
+//     > section{
+//       width: 100%; 
+//     }
+//   }
+//   .login{
+//     > section{
+//       h4{
+//         text-align: center;
+//       }
+//       a{
+//         text-align: center;
+//       }
+//     }
+//   }
+// }
+
 @media (max-width: 900px) {
   .header{
     width: 100%;
@@ -26,7 +209,7 @@
 }
 @media (max-width: 770px) {
   .header{
-    width: 131%;
+    width: 133%;
   }
   .container{ 
     @include defaultStyle(131%, 127vh);
@@ -46,7 +229,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 131%;
+    width: 133%;
 
     >div {
       h2 {
@@ -78,7 +261,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 131%;
+    width: 133%;
 
     >div {
       h2 {
@@ -110,7 +293,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 130%;
+    width: 135%;
 
     >div {
       h2 {
@@ -165,6 +348,47 @@
   .container{ 
     @include defaultStyle(131%, 122vh);
     @include container(1200px, 131%, 122vh);
+  }
+  .login{
+    > section{
+      width: 100%; 
+    }
+  }
+  .login{
+    > section{
+      h4{
+        text-align: center;
+      }
+      a{
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 321px) {
+  *{
+    width: 100%;
+  }
+  .header {
+    background-color: $color3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 135%;
+
+    >div {
+      h2 {
+        text-transform: uppercase;
+        color: $color2;
+        font-weight: 400;
+        padding: 0 8.5rem;
+      }
+    }
+  }
+  .container{ 
+    @include defaultStyle(134%, 127vh);
+    @include container(1200px, 134%, 127vh);
   }
   .login{
     > section{
