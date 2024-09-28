@@ -212,8 +212,8 @@
     width: 133%;
   }
   .container{ 
-    @include defaultStyle(131%, 127vh);
-    @include container(1200px, 131%, 127vh);
+    @include defaultStyle(135%, 127vh);
+    @include container(1200px, 135%, 127vh);
   }
   .login {
     padding: 0;
@@ -229,7 +229,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 133%;
+    width: 135%;
 
     >div {
       h2 {
@@ -334,7 +334,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 130%;
+    width: 135%;
 
     >div {
       h2 {
