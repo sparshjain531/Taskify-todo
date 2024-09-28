@@ -146,10 +146,17 @@ $shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   height: 100%;
 }
 
-@mixin container($maxW: 1200px, $h: 100vh, $p: 5vmax, $m: auto) {
+// @mixin container($maxW: 1200px, $h: 100vh, $p: 5vmax, $m: auto) {
+//   margin: $m;
+//   max-width: $maxW;
+//   width: 100%;
+//   height: $h;
+//   padding: $p;
+// }
+@mixin container($maxW: 1200px, $width: 100%, $h: 100vh, $p: 5vmax, $m: auto) {
   margin: $m;
   max-width: $maxW;
-  width: 100%;
+  width: $width;
   height: $h;
   padding: $p;
 }
